@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+@if (!string.IsNullOrEmpty(ViewBag.UserNameSurname))
+{
+    <div>@ViewBag.UserNameSurname</div>
+}
+<p>Use this area to provide additional information.</p>
